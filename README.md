@@ -1,11 +1,10 @@
-# Gerlero Openfoam
 
-## How do I install these formulae?
+# OpenFOAM-related tap for [Homebrew](https://brew.sh)
 
-`brew install gerlero/openfoam/<formula>`
+## Available casks
 
-Or `brew tap gerlero/openfoam` and then `brew install <formula>`.
+* **OpenFOAM v2112** (https://github.com/gerlero/openfoam2112-app)
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+    ```bash
+    brew install --cask gerlero/openfoam/openfoam2112
+    ```
