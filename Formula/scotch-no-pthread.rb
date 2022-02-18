@@ -12,12 +12,8 @@ class ScotchNoPthread < Formula
   end
 
   bottle do
-    sha256 cellar: :any,                 arm64_monterey: "91f03cb1007abbf67a644e735fe443e4169398c3695ba64dff5ecfd4847a5b31"
-    sha256 cellar: :any,                 arm64_big_sur:  "503025cb4b3f0d8db315970a30e4ffe30199913b30ff036aa73624d2201d0907"
-    sha256 cellar: :any,                 monterey:       "ea1a22d651955876079f3c3b15e27359417dd32da4aaa08a31a9d0b8cd475849"
-    sha256 cellar: :any,                 big_sur:        "c0c83373c6fcbe49f01ba2cd8e73ff767671f0e43d00cd666c9005a9286059a0"
-    sha256 cellar: :any,                 catalina:       "8ef12d89d6d2de7ff4495456cb23f5dc89770c834a4d35b604d8ecdd6115c448"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "085ce19d188ae760959d428a7da362de763e74d4d83efc598cef3cb2772df291"
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/scotch-no-pthread-6.1.3"
+    sha256 cellar: :any, big_sur: "f55d6c4567f3a4844f7190e5b0c5a4c3300d399b2154d4ad7917fad6ad608411"
   end
 
   keg_only "this is a variant of the default 'scotch' formula"
