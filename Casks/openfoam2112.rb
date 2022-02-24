@@ -32,4 +32,10 @@ cask "openfoam2112" do
 
   app "OpenFOAM-v2112.app"
   binary "#{appdir}/OpenFOAM-v2112.app/Contents/MacOS/openfoam", target: "openfoam2112"
+
+  uninstall script: {
+    executable:   "hdiutil",
+    args:         ["detach", "-quiet", "/Volumes/OpenFOAM-v2112"],
+    must_succeed: false,
+  }
 end
