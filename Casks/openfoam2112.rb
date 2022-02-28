@@ -1,7 +1,7 @@
 cask "openfoam2112" do
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
 
-  version "1.2.0"
+  version "1.3.0"
 
   if Hardware::CPU.intel?
     sha256 "20b9594f4c5bdbb44b26e9b212aaf89370f2bdddfe1a25d7835d326a1f078d39"
