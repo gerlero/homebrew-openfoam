@@ -12,6 +12,7 @@ class CgalAT4 < Formula
 
   def install
     args = std_cmake_args + %W[
+      -DCMAKE_CXX_FLAGS='-std=c++14'
       -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON
       -DCMAKE_INSTALL_NAME_DIR=#{HOMEBREW_PREFIX}/lib
       -DWITH_Eigen3=ON
