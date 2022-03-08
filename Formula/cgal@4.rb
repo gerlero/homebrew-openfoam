@@ -4,6 +4,8 @@ class CgalAT4 < Formula
   url "https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.14.1/CGAL-4.14.1.tar.xz"
   sha256 "d4ec2528b88a7c3a07b0b86db96c216822f85b951bf4bc7f9d1f26bf6c369afe"
 
+  keg_only :versioned_formula
+
   depends_on "cmake" => [:build, :test]
   depends_on "boost"
   depends_on "eigen"
@@ -14,7 +16,7 @@ class CgalAT4 < Formula
     args = std_cmake_args + %W[
       -DCMAKE_CXX_FLAGS='-std=c++14'
       -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON
-      -DCMAKE_INSTALL_NAME_DIR=#{HOMEBREW_PREFIX}/lib
+      -DCMAKE_INSTALL_NAME_DIR=#{lib}
       -DWITH_Eigen3=ON
       -DWITH_LAPACK=ON
       -DWITH_CGAL_Qt5=OFF
@@ -51,7 +53,7 @@ class CgalAT4 < Formula
       add_executable(surprise surprise.cpp)
       target_link_libraries(surprise PRIVATE CGAL::CGAL)
     EOS
-    system "cmake", "-L", "-DCMAKE_BUILD_RPATH=#{HOMEBREW_PREFIX}/lib", "-DCMAKE_PREFIX_PATH=#{prefix}", "."
+    system "cmake", "-L", "-DCMAKE_BUILD_RPATH=#{lib}", "-DCMAKE_PREFIX_PATH=#{prefix}", "."
     system "cmake", "--build", ".", "-v"
     assert_equal "15\n15", shell_output("./surprise").chomp
   end
