@@ -4,6 +4,12 @@ class CgalAT4 < Formula
   url "https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.14.1/CGAL-4.14.1.tar.xz"
   sha256 "d4ec2528b88a7c3a07b0b86db96c216822f85b951bf4bc7f9d1f26bf6c369afe"
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/cgal@4-4.14.1"
+    sha256 cellar: :any,                 big_sur:      "89b49c68aff6b584aa4e3ad264b89e74ed420f2db0946bfdf81bba10d1fa3e4d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5cb3e60750cf99dee3e60d2494e97d860a65a9834c7263cbda61d1520c907f69"
+  end
+
   keg_only :versioned_formula
 
   depends_on "cmake" => [:build, :test]
