@@ -4,7 +4,7 @@ cask "openfoam2112" do
   version "1.4.0"
 
   if Hardware::CPU.intel?
-    sha256 "91f11993f5d547bd088bdcf2d061029a70aa501c7f6ba8c63780531127f36d41"
+    sha256 "f92471520c5180042d2ca08cda6edadbdaeb99368119c59b577c8da6a1382e66"
   else
     sha256 "69fa1ac0106d6741378acaf34989f6663c786151f2064b7fcaab6aa8cee5658f"
   end
