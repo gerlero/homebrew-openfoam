@@ -1,12 +1,12 @@
 cask "openfoam2112" do
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
 
-  version "1.4.0"
+  version "1.5.0"
 
   if Hardware::CPU.intel?
     sha256 "f92471520c5180042d2ca08cda6edadbdaeb99368119c59b577c8da6a1382e66"
   else
-    sha256 "69fa1ac0106d6741378acaf34989f6663c786151f2064b7fcaab6aa8cee5658f"
+    sha256 "db9d1842ca1f4a1192a7f93d7962bc781d25429529a8e9691e08ffe7d292b2ee"
   end
 
   url "https://github.com/gerlero/openfoam2112-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
