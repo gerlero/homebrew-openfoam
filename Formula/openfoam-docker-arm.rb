@@ -12,6 +12,12 @@ class OpenfoamDockerArm < Formula
     regex(/scriptVersion="?(\d+(-\d+)+)"?/i)
   end
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/openfoam-docker-arm-2021-12-21"
+    sha256 cellar: :any_skip_relocation, big_sur:      "380ab1adf2f633a211bfee1c39f1acb0a3e21ed54784f77f5def14366c8aca9f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a5c9649baff4d8ed82462394f0a25369b17d6b9148afc65c4e2a994a50ce84de"
+  end
+
   def install
     bin.install "openfoam-docker-arm"
   end
