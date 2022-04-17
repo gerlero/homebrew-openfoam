@@ -14,8 +14,8 @@ class OpenfoamDockerArm < Formula
 
   bottle do
     root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/openfoam-docker-arm-2022-01-10"
-    sha256 cellar: :any_skip_relocation, big_sur:      "380ab1adf2f633a211bfee1c39f1acb0a3e21ed54784f77f5def14366c8aca9f"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "a5c9649baff4d8ed82462394f0a25369b17d6b9148afc65c4e2a994a50ce84de"
+    sha256 cellar: :any_skip_relocation, big_sur:      "24bc0b6140aee264289e4a3db58da0e09fc818f133cd06ad07e4088bebd72af0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "1675dbe506283c3d8487270cf5af977077a322f9091f06d9ae19b86d39d5e111"
   end
 
   def install
