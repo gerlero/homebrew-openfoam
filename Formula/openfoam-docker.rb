@@ -12,6 +12,12 @@ class OpenfoamDocker < Formula
     regex(/scriptVersion="?(\d+(-\d+)+)"?/i)
   end
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/openfoam-docker-2022-01-10"
+    sha256 cellar: :any_skip_relocation, big_sur:      "e746c7d6e54f85248fa7ab918fbc878fe85ba0cdbf48075e0b7e50275b4c27ce"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "16504f5259a444c66ae4a0e3740db482a0f29f36d255a719e4ff2a89de43a55f"
+  end
+
   def install
     bin.install "openfoam-docker"
   end
