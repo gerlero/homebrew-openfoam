@@ -11,11 +11,6 @@ class ScotchNoPthread < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  bottle do
-    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/scotch-no-pthread-6.1.3"
-    sha256 cellar: :any, big_sur: "f55d6c4567f3a4844f7190e5b0c5a4c3300d399b2154d4ad7917fad6ad608411"
-  end
-
   keg_only "this is a variant of the default 'scotch' formula"
 
   depends_on :macos
