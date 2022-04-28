@@ -1,12 +1,12 @@
 cask "openfoam2112" do
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
 
-  version "1.5.2"
+  version "1.5.3"
 
   if Hardware::CPU.intel?
-    sha256 "16076bafbe8105e9b6197f225aa521852c7fb0feb9741ba8e1ddc9ca3ab638c6"
+    sha256 "c935c36f9cf4ef624cbf95daf2fb9a12eeeffd26fe35cb3c89918fb473d028bc"
   else
-    sha256 "c3c507ca99ef717d9e87ee1bc89e07c451ef5404fbfe53544d7589ddc00bda80"
+    sha256 "287c42d7795d1716c9f002e7863c86513f812bef059dd30013855f5763cdef55"
   end
 
   url "https://github.com/gerlero/openfoam2112-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
@@ -24,7 +24,6 @@ cask "openfoam2112" do
   depends_on formula: "libomp"
   depends_on formula: "adios2"
   depends_on formula: "boost"
-  depends_on formula: "cmake"
   depends_on formula: "fftw"
   depends_on formula: "kahip"
   depends_on formula: "metis"
