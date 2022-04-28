@@ -24,7 +24,6 @@ cask "openfoam2112" do
   depends_on formula: "libomp"
   depends_on formula: "adios2"
   depends_on formula: "boost"
-  depends_on formula: "cmake"
   depends_on formula: "fftw"
   depends_on formula: "kahip"
   depends_on formula: "metis"
