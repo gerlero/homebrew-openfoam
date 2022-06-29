@@ -9,10 +9,10 @@ cask "openfoam2112" do
     sha256 "bbf886b37eebd1d1e18635d45b979f6cdb6787d1b0082666185c360605c1e001"
   end
 
-  url "https://github.com/gerlero/openfoam2112-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
+  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
   name "OpenFOAM v2112"
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
-  homepage "https://github.com/gerlero/openfoam2112-app/"
+  homepage "https://github.com/gerlero/openfoam-app/"
 
   livecheck do
     url :url

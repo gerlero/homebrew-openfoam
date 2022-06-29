@@ -5,7 +5,7 @@
 
 ### Native OpenFOAM for macOS
 
-* `openfoam2112`: OpenFOAM-v2112.app (https://github.com/gerlero/openfoam2112-app)
+* `openfoam2112`: OpenFOAM-v2112.app (https://github.com/gerlero/openfoam-app)
 
     ```bash
     brew install --no-quarantine gerlero/openfoam/openfoam2112
