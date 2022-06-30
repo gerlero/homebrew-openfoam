@@ -3,9 +3,15 @@
 
 ## Available casks
 
-### Native OpenFOAM for macOS
+### OpenFOAM.app: Native OpenFOAM for macOS (https://github.com/gerlero/openfoam-app)
 
-* `openfoam2112`: OpenFOAM-v2112.app (https://github.com/gerlero/openfoam-app)
+* `openfoam2206`: OpenFOAM-v2206.app 
+
+    ```bash
+    brew install --no-quarantine gerlero/openfoam/openfoam2206
+    ```
+
+* `openfoam2112`: OpenFOAM-v2112.app
 
     ```bash
     brew install --no-quarantine gerlero/openfoam/openfoam2112
