@@ -5,12 +5,11 @@ class CgalAT4 < Formula
   sha256 "5bafe7abe8435beca17a1082062d363368ec1e3f0d6581bb0da8b010fb389fe4"
 
   bottle do
-    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/cgal@4-4.14.1"
-    rebuild 1
-    sha256 cellar: :any,                 monterey:     "ab037cb34035d68c7e6a096b5abd8d2ab4c165dc3e4d5e373b9cfe27bf1f3cbc"
-    sha256 cellar: :any,                 big_sur:      "aaa72dd3861caa778e5eebba3368897a04678d6add742b7271965897907a25a0"
-    sha256 cellar: :any,                 catalina:     "d47bf10a2e48d38169f7038d6ae3e460dae9e20d6a86303e2fd0f1fcadb68cd3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "b9aa82aeab7d1d5ecd155191625274d03312c9c38cf0e6b7b7f77fe72656f45d"
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/cgal@4-4.14.3"
+    sha256 cellar: :any,                 monterey:     "7d00d0c7a1c1f74e519520b3de48a7c98ec6e127814951347b2faace45d8bfb9"
+    sha256 cellar: :any,                 big_sur:      "5bf0a43960b562ed878d044329c342b133607034728ff2f49fe6ad6440c7d87e"
+    sha256 cellar: :any,                 catalina:     "434893e9c7fde34d84097adaddd78dfb7b6f26b2ecb63ce80975b3675d006fcd"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2df1d963d24f975e41c0838fd6992d66ec3700ca3a3d87cf9cb8ba6ac8096e4a"
   end
 
   keg_only :versioned_formula
