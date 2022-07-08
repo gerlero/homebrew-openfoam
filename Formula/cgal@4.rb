@@ -4,6 +4,11 @@ class CgalAT4 < Formula
   url "https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.14.3/CGAL-4.14.3.tar.xz"
   sha256 "5bafe7abe8435beca17a1082062d363368ec1e3f0d6581bb0da8b010fb389fe4"
 
+  livecheck do
+    url :stable
+    regex(/^v?(4(?:\.\d+)+)$/i)
+  end
+
   bottle do
     root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/cgal@4-4.14.3"
     sha256 cellar: :any,                 monterey:     "7d00d0c7a1c1f74e519520b3de48a7c98ec6e127814951347b2faace45d8bfb9"
