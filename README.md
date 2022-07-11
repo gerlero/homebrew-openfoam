@@ -1,5 +1,9 @@
 
-# OpenFOAM-related tap for [Homebrew](https://brew.sh)
+# OpenFOAM-related tap for Homebrew
+
+This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew](https://docs.brew.sh). It provides useful packages for running [OpenFOAM](https://www.openfoam.com) on macOS.
+
+[![homebrew tap](https://img.shields.io/badge/homebrew%20tap-gerlero%2Fopenfoam-informational)]([https://github.com/gerlero/homebrew-openfoam](https://docs.brew.sh/Taps))
 
 ## Available casks
 
@@ -35,7 +39,7 @@
 
 ### Dependencies for native OpenFOAM builds
 
-These are variants and alternate versions of Homebrew formulae for better compatibility with OpenFOAM. They are installed automatically along with the `openfoam2112` cask.
+These are variants and alternate versions of Homebrew formulae for better compatibility with OpenFOAM. You may want these if you're compiling OpenFOAM from source on macOS.
 
 * `cgal@4`: CGAL, major version 4
 
