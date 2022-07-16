@@ -3,7 +3,7 @@
 
 This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew](https://docs.brew.sh). It provides useful packages for running [OpenFOAM](https://www.openfoam.com) on macOS.
 
-[![homebrew tap](https://img.shields.io/badge/homebrew%20tap-gerlero%2Fopenfoam-informational)]([https://github.com/gerlero/homebrew-openfoam](https://docs.brew.sh/Taps))
+[![homebrew tap](https://img.shields.io/badge/homebrew%20tap-gerlero%2Fopenfoam-informational)](https://docs.brew.sh/Taps)
 
 ## Available casks
 
