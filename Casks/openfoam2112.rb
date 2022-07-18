@@ -1,15 +1,15 @@
 cask "openfoam2112" do
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
 
-  version "1.6.1"
+  version "1.7.0"
 
   if Hardware::CPU.intel?
-    sha256 "856a2e11478238973ae4531343ec4c8eee0b3c1c59e02dd51d21d8bd595e57d2"
+    sha256 "b7a936327007fe8a2edcdc3fe8967d54cbe4779ba2cdd895ba4de60465f9f939"
   else
-    sha256 "ef9ec7150a3026c84c8f2792968dd07344e273efc6353193c5d09cd7e9f29a9a"
+    sha256 "4d0237c43ce97f5a2191f5ceac70e2e5b3f1974a2fabffd86fb28924cbd97199"
   end
 
-  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
+  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2112-app-homebrew-#{arch}.zip"
   name "OpenFOAM v2112"
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
