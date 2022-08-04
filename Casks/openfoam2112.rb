@@ -31,10 +31,10 @@ cask "openfoam2112" do
   depends_on formula: "gerlero/openfoam/scotch-no-pthread"
 
   app "OpenFOAM-v2112.app"
-  binary "#{appdir}/OpenFOAM-v2112.app/Contents/MacOS/openfoam", target: "openfoam2112"
+  binary "#{appdir}/OpenFOAM-v2112.app/Contents/Resources/etc/openfoam", target: "openfoam2112"
 
   uninstall script: {
-    executable:   "#{staged_path}/OpenFOAM-v2112.app/Contents/MacOS/volume",
+    executable:   "#{staged_path}/OpenFOAM-v2112.app/Contents/Resources/volume",
     args:         ["eject"],
     must_succeed: false,
   }
