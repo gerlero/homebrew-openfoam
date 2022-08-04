@@ -1,12 +1,12 @@
 cask "openfoam2206" do
   arch = Hardware::CPU.intel? ? "x86_64" : "arm64"
 
-  version "1.7.1"
+  version "1.8.0"
 
   if Hardware::CPU.intel?
-    sha256 "fc4cef141dfef11f1eb319df8fab92a9c86ebff4bd778ad2e9df309f9bb0a9b3"
+    sha256 "a93efad45a2847fd53a732bc9ec4e64b7d2788dbe7a5071bfa1093756f7d3d1d"
   else
-    sha256 "353c59508c4f73e7839f183538c2a716c0dda593cd54e08f68430193f35178c6"
+    sha256 "b13ddf35cdcee45306be567ba5121aad6470d8beea1a5d7148f93dfaa418a5a3"
   end
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2206-app-homebrew-#{arch}.zip"
