@@ -1,10 +1,5 @@
 cask "openfoam2112" do
-  arch = on_intel do
-    "x86_64"
-  end
-  on_arm do
-    "arm64"
-  end
+  arch arm: "arm64", intel: "x86_64"
 
   version "1.8.1"
   sha256 arm:   "d870e9484e34ce712852b1a1450fa4b52280fe1db9bca2c2dd399bc5020c9367",
