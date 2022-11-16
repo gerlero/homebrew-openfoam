@@ -1,9 +1,9 @@
 cask "openfoam2206" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.8.4"
-  sha256 arm:   "021ce847a8588d8259fb92beba958f0ed4ab6a234f44407c48ec5cf5601cd44b",
-         intel: "4f431446d9c915e50908fc9a5b6c993d98c338baa16181b80a88bfdc7d4e3c3f"
+  version "1.8.5"
+  sha256 arm:   "aa7a53fcf92700fc2cc6da423ea895bce54d667d688d011b81d17b8a059f6b38",
+         intel: "b598733d640a88a722ecbb72933ea08d3ebecec1d3ae2ba9db7c651f15a343e8"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2206-app-homebrew-#{arch}.zip"
   name "OpenFOAM v2206"
