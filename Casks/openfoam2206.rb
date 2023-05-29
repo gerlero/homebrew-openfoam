@@ -1,11 +1,11 @@
 cask "openfoam2206" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.9.0"
-  sha256 arm:   "c4b16f855527965003273835e81269cfc8fd9fbd5439a9884ac1469135e683c4",
-         intel: "404877549586d8bac22fb4e10fd94abea39272ec91525ecf43874da33d453f55"
+  version "1.10.0"
+  sha256 arm:   "0b7cf91e98fa3bb2fca4f75d12f7cdcefd5386e7f2677a35659ff756af931757",
+         intel: "c15afd33c1a679cc080ccaa7115b35a4fef335ff09cfaf1ef7de5f661c54553e"
 
-  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2206-app-homebrew-#{arch}.zip"
+  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2206-app-#{arch}.zip"
   name "OpenFOAM v2206"
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
