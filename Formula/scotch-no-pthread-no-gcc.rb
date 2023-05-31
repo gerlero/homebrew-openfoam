@@ -11,7 +11,7 @@ class ScotchNoPthreadNoGcc < Formula
       regex(/^v?(\d+(?:\.\d+)+)$/i)
     end
   
-    keg_only "this is a variant of the default 'scotch' formula"
+    keg_only "it conflicts with `scotch`"
   
     depends_on :macos
     depends_on "gerlero/openfoam/open-mpi-no-gcc"
