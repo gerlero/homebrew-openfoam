@@ -17,11 +17,11 @@ class OpenMpiNoGcc < Formula
     depends_on "libtool" => :build
   end
 
+  keg_only "it conflicts with `open-mpi`"
+
   depends_on "gcc" # for gfortran
   depends_on "hwloc"
   depends_on "libevent"
-
-  conflicts_with "mpich", because: "both install MPI compiler wrappers"
 
   def install
     if OS.mac?
