@@ -15,10 +15,8 @@ class FftwNoGcc < Formula
   depends_on "open-mpi"
 
   on_macos do
-    depends_on "gcc"
+    depends_on "libomp"
   end
-
-  fails_with :clang
 
   def install
     ENV.runtime_cpu_detection
@@ -32,6 +30,12 @@ class FftwNoGcc < Formula
       "--enable-mpi",
       "--enable-openmp",
     ]
+
+    if OS.mac?
+      libomp = Formula["libomp"]
+      args << "CFLAGS=-I#{libomp.opt_include} -Xpreprocessor -fopenmp"
+      args << "LDFLAGS=-L#{libomp.opt_lib} -lomp"
+    end
 
     # FFTW supports runtime detection of CPU capabilities, so it is safe to
     # use with --enable-avx and the code will still run on all CPUs
