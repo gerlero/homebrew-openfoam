@@ -10,6 +10,8 @@ class FftwNoGcc < Formula
     regex(%r{latest official release.*? <b>v?(\d+(?:\.\d+)+)</b>}i)
   end
 
+  keg_only "it conflicts with `fftw`"
+
   depends_on "open-mpi"
 
   on_macos do
