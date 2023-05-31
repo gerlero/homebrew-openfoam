@@ -1,4 +1,4 @@
-class Kahip < Formula
+class KahipNoGcc < Formula
   desc "Karlsruhe High Quality Partitioning"
   homepage "https://algo2.iti.kit.edu/documents/kahip/index.html"
   url "https://github.com/KaHIP/KaHIP/archive/v3.15.tar.gz"
