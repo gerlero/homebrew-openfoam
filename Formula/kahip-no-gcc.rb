@@ -12,7 +12,7 @@ class KahipNoGcc < Formula
   depends_on "open-mpi"
 
   on_macos do
-    depends_on "gcc"
+    depends_on "libomp"
   end
 
   fails_with :clang do
