@@ -14,7 +14,7 @@ class ScotchNoPthreadNoGcc < Formula
     keg_only "this is a variant of the default 'scotch' formula"
   
     depends_on :macos
-    depends_on "open-mpi"
+    depends_on "gerlero/openfoam/open-mpi-no-gcc"
   
     uses_from_macos "bison"
     uses_from_macos "flex"
