@@ -6,6 +6,8 @@ class KahipNoGcc < Formula
   license "MIT"
   head "https://github.com/KaHIP/KaHIP.git", branch: "master"
 
+  keg_only "it conflicts with `kahip`"
+
   depends_on "cmake" => :build
   depends_on "open-mpi"
 
