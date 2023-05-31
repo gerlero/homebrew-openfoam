@@ -12,7 +12,7 @@ class FftwNoGcc < Formula
 
   keg_only "it conflicts with `fftw`"
 
-  depends_on "open-mpi"
+  depends_on "gerlero/openfoam/open-mpi-no-gcc"
 
   on_macos do
     depends_on "libomp"
