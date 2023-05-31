@@ -19,7 +19,6 @@ class OpenMpiNoGcc < Formula
 
   keg_only "it conflicts with `open-mpi`"
 
-  depends_on "gcc" # for gfortran
   depends_on "hwloc"
   depends_on "libevent"
 
