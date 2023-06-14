@@ -9,6 +9,15 @@ class CgalAT4 < Formula
     regex(/^v?(4(?:\.\d+)+)$/i)
   end
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/cgal@4-4.14.3"
+    rebuild 2
+    sha256 cellar: :any,                 ventura:      "eb1295220d9f3c7752f44e4d388b5451cd0e2b9a165d85f77e7beebc616c03e7"
+    sha256 cellar: :any,                 monterey:     "89412500379d0d7d8fabf0f1891ba9d3c8f341e0c1133a16cc2c1e7785212f1e"
+    sha256 cellar: :any,                 big_sur:      "fb68664dbc58c5b0f87ce9f79cf75ef74fa2e374198387981ad6acb37e90f927"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "54bfe71acaed04f0cdb0be00a88fa8b57a9a0cee67113a24bd9858e23760be0b"
+  end
+
   keg_only :versioned_formula
 
   depends_on "cmake" => [:build, :test]
