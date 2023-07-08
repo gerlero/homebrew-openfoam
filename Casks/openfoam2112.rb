@@ -1,9 +1,9 @@
 cask "openfoam2112" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.10.1"
-  sha256 arm:   "296c539380a42c472a6cc80e92effb84b15f326e7ed145ace2bb34b1c3734aa6",
-         intel: "47e3aec8358b63c7d7e757271d637b2da5a6c4a9609ca110c4b878053c2e5a42"
+  version "1.10.2"
+  sha256 arm:   "43b7d628b2f9bb98e8687cd3ae0888234d5561beccb55cbe855b778802a726a2",
+         intel: "eeeb3cb816e817efb98f24ee9700b22a7b3839327476a247991f3ea0c35ac3ea"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2112-app-#{arch}.zip"
   name "OpenFOAM v2112"
@@ -23,11 +23,4 @@ cask "openfoam2112" do
     args:         ["eject"],
     must_succeed: false,
   }
-
-  caveats <<~EOS
-    As of #{token} 1.10.0, the app is fully self-contained.
-    If you are upgrading from a previous release, consider running:
-      brew autoremove
-    to uninstall Homebrew dependencies that are no longer required.
-  EOS
 end
