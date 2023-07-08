@@ -25,11 +25,6 @@ cask "openfoam2212" do
   }
 
   caveats <<~EOS
-    As of #{token} 1.10.0, the app is fully self-contained.
-    If you are upgrading from a previous release, consider running:
-      brew autoremove
-    to uninstall Homebrew dependencies that are no longer required.
-
     OpenFOAM-v2306.app is now available. To install it, run:
       brew install --no-quarantine openfoam2306
   EOS
