@@ -23,11 +23,4 @@ cask "openfoam2112" do
     args:         ["eject"],
     must_succeed: false,
   }
-
-  caveats <<~EOS
-    As of #{token} 1.10.0, the app is fully self-contained.
-    If you are upgrading from a previous release, consider running:
-      brew autoremove
-    to uninstall Homebrew dependencies that are no longer required.
-  EOS
 end
