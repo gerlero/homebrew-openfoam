@@ -37,8 +37,8 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ### Linux-based OpenFOAM in a container
 
-* `openfoam-docker`: run script for the official OpenFOAM container images (https://develop.openfoam.com/packaging/containers)
-        
+* `openfoam-docker`: run script for the official OpenFOAM container images (https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/docker)
+
     ```bash
     brew install gerlero/openfoam/openfoam-docker
     ```
