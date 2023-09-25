@@ -23,9 +23,4 @@ cask "openfoam2212" do
     args:         ["eject"],
     must_succeed: false,
   }
-
-  caveats <<~EOS
-    OpenFOAM-v2306.app is now available. To install it, run:
-      brew install --no-quarantine openfoam2306
-  EOS
 end
