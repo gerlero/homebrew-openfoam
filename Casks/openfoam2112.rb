@@ -10,11 +10,6 @@ cask "openfoam2112" do
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   app "OpenFOAM-v2112.app"
   binary "#{appdir}/OpenFOAM-v2112.app/Contents/Resources/etc/openfoam", target: "openfoam2112"
 
@@ -23,4 +18,8 @@ cask "openfoam2112" do
     args:         ["eject"],
     must_succeed: false,
   }
+
+  caveats do
+    discontinued
+  end
 end
