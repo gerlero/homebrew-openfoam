@@ -15,6 +15,8 @@ cask "openfoam2306" do
     strategy :github_latest
   end
 
+  conflicts_with cask: "openfoam"
+
   app "OpenFOAM-v2306.app"
   binary "#{appdir}/OpenFOAM-v2306.app/Contents/Resources/etc/openfoam", target: "openfoam2306"
 
