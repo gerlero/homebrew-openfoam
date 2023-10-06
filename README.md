@@ -9,6 +9,12 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ### OpenFOAM.app: Native OpenFOAM for macOS (https://github.com/gerlero/openfoam-app)
 
+* `openfoam`: **OpenFOAM.app** (latest OpenFOAM version — currently v2306)
+
+    ```bash
+    brew install --no-quarantine gerlero/openfoam/openfoam
+    ```
+
 * `openfoam2306`: **OpenFOAM-v2306.app**
 
     ```bash
