@@ -9,10 +9,16 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ### OpenFOAM.app: Native OpenFOAM for macOS (https://github.com/gerlero/openfoam-app)
 
-* `openfoam`: **OpenFOAM.app** (latest OpenFOAM version — currently v2306)
+* `openfoam`: **OpenFOAM.app** (latest OpenFOAM version—currently v2312)
 
     ```bash
     brew install --no-quarantine gerlero/openfoam/openfoam
+    ```
+
+* `openfoam2312`: **OpenFOAM-v2312.app**
+
+    ```bash
+    brew install --no-quarantine gerlero/openfoam/openfoam2312
     ```
 
 * `openfoam2306`: **OpenFOAM-v2306.app**
@@ -21,7 +27,7 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
     brew install --no-quarantine gerlero/openfoam/openfoam2306
     ```
 
-* `openfoam2212`: **OpenFOAM-v2212.app**
+* `openfoam2212`: **OpenFOAM-v2212.app** (discontinued)
 
     ```bash
     brew install --no-quarantine gerlero/openfoam/openfoam2212
@@ -65,7 +71,7 @@ These are variants and alternate versions of Homebrew formulae for better compat
     brew install gerlero/openfoam/scotch-no-pthread
     ```
 
-* `cgal@4`: CGAL, major version 4 (deprecated — prefer the official [`cgal`](https://formulae.brew.sh/formula/cgal) formula instead)
+* `cgal@4`: CGAL, major version 4 (deprecated—prefer the official [`cgal`](https://formulae.brew.sh/formula/cgal) formula instead)
 
     ```bash
     brew install gerlero/openfoam/cgal@4
