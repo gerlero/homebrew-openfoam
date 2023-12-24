@@ -1,9 +1,9 @@
 cask "openfoam" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.12.0"
-  sha256 arm:   "5fec271cb9776372f8d4dc8f4e725cbea950bcea9d43c09c8489c54ed14a7893",
-         intel: "2681c9e52ad1af6a5c4110f7499e07dd5c5276a1278849f6c2ee57e77a5c8829"
+  version "1.12.1"
+  sha256 arm:   "030573a3baa93929c22cdbb4f1b8e9f1bdf2f2429b101c0f8831d14ff0f6e1c0",
+         intel: "7e30fce23f686fd3a5b4b377a0ca61c8a9fec30a0f6cf63bdd43cd087d6b9914"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2312-app-#{arch}.zip"
   name "OpenFOAM"
