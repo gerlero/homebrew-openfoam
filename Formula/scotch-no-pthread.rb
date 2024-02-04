@@ -11,6 +11,15 @@ class ScotchNoPthread < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/scotch-no-pthread-6.1.3"
+    rebuild 3
+    sha256 cellar: :any,                 arm64_sonoma: "41d7b5a1a34d16003e2d64f46b0833b3a368e5664d2555c92fd1b2717ffc0f80"
+    sha256 cellar: :any,                 ventura:      "c90266d5e3614969e13159ada9b42fd06e417e731be0842bbed901f99efd4c4a"
+    sha256 cellar: :any,                 monterey:     "24adc9e4e6880e5a94e3a44b6403b616389902c26000b1575bdabf3584b697e4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "61310fff5336a5c11ad2427318fba7d1c220e2fea6ac4db71f4527bab284dbec"
+  end
+
   keg_only "it conflicts with the `scotch` formula from core"
 
   depends_on "open-mpi"
