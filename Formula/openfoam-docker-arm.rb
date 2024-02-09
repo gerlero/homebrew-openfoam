@@ -18,6 +18,8 @@ class OpenfoamDockerArm < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "1675dbe506283c3d8487270cf5af977077a322f9091f06d9ae19b86d39d5e111"
   end
 
+  deprecate! date: "2024-02-09", because: :deprecated_upstream
+
   def install
     bin.install "openfoam-docker-arm"
   end
