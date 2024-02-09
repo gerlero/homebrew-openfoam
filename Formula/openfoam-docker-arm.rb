@@ -14,8 +14,11 @@ class OpenfoamDockerArm < Formula
 
   bottle do
     root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/openfoam-docker-arm-2022-01-10"
-    sha256 cellar: :any_skip_relocation, big_sur:      "24bc0b6140aee264289e4a3db58da0e09fc818f133cd06ad07e4088bebd72af0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "1675dbe506283c3d8487270cf5af977077a322f9091f06d9ae19b86d39d5e111"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "e4cae7a8200f4477dc43e2e2cbbcd5b02e6c95cbfdcc160c4fda4fae6919f2fe"
+    sha256 cellar: :any_skip_relocation, ventura:      "707ce7fef4d3cc10e29ad188641d71461320f7732a334dcd1487c1a25afc0ae7"
+    sha256 cellar: :any_skip_relocation, monterey:     "ee1b811f4a20e084bf5411ca6ee4821a2ecb4a046224bc1f02e5e7dfd3ec6b46"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "39452b0e9820e97ccc5efb5d3e1604744b5e8a36234dfca398a3cac06bfc0c4a"
   end
 
   deprecate! date: "2024-02-09", because: :deprecated_upstream
