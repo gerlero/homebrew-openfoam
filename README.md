@@ -55,7 +55,7 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
     brew install gerlero/openfoam/openfoam-docker
     ```
 
-* `openfoam-docker-arm`: run script for ARM-based OpenFOAM container images (https://github.com/gerlero/openfoam-docker-arm)
+* `openfoam-docker-arm`: run script for ARM-based OpenFOAM container images (https://github.com/gerlero/openfoam-docker-arm) (deprecated—prefer `openfoam-docker` instead)
     
     ```bash
     brew install gerlero/openfoam/openfoam-docker-arm
