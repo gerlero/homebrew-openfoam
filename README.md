@@ -65,7 +65,7 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 These are variants and alternate versions of Homebrew formulae for better compatibility with OpenFOAM. You may want these if you're compiling OpenFOAM from source on macOS.
 
-* `scotch-no-pthread`: Scotch libraries compiled without the `-DSCOTCH_PTHREAD` flag (thanks [@BrushXue](https://github.com/BrushXue))
+* `scotch-no-pthread`: Scotch libraries compiled without the `-DSCOTCH_PTHREAD` flag (deprecated—prefer the official [`scotch`](https://formulae.brew.sh/formula/scotch) formula instead)
 
     ```bash
     brew install gerlero/openfoam/scotch-no-pthread
