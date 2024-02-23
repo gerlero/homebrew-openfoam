@@ -22,6 +22,8 @@ class ScotchNoPthread < Formula
 
   keg_only "it conflicts with the `scotch` formula from core"
 
+  deprecate! date: "2024-02-23", because: "is no longer needed for OpenFOAM"
+
   depends_on "open-mpi"
 
   uses_from_macos "bison"
