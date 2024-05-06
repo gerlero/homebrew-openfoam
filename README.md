@@ -15,34 +15,34 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
     brew install --no-quarantine gerlero/openfoam/openfoam
     ```
 
-* `openfoam2312`: **OpenFOAM-v2312.app**
+* `openfoam@2312`: **OpenFOAM-v2312.app**
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam2312
+    brew install --no-quarantine gerlero/openfoam/openfoam@2312
     ```
 
-* `openfoam2306`: **OpenFOAM-v2306.app**
+* `openfoam@2306`: **OpenFOAM-v2306.app**
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam2306
+    brew install --no-quarantine gerlero/openfoam/openfoam@2306
     ```
 
-* `openfoam2212`: **OpenFOAM-v2212.app** (discontinued)
+* `openfoam@2212`: **OpenFOAM-v2212.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam2212
+    brew install --no-quarantine gerlero/openfoam/openfoam@2212
     ```
 
-* `openfoam2206`: **OpenFOAM-v2206.app** (discontinued)
+* `openfoam@2206`: **OpenFOAM-v2206.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam2206
+    brew install --no-quarantine gerlero/openfoam/openfoam@2206
     ```
 
-* `openfoam2112`: **OpenFOAM-v2112.app** (discontinued)
+* `openfoam@2112`: **OpenFOAM-v2112.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam2112
+    brew install --no-quarantine gerlero/openfoam/openfoam@2112
     ```
 
 ## Available formulae
