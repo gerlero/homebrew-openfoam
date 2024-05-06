@@ -1,4 +1,4 @@
-cask "openfoam2306" do
+cask "openfoam@2306" do
   arch arm: "arm64", intel: "x86_64"
 
   version "1.13.0"
