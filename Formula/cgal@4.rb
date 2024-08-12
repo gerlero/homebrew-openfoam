@@ -20,7 +20,7 @@ class CgalAT4 < Formula
 
   keg_only :versioned_formula
 
-  deprecate! date: "2023-10-06", because: :versioned_formula
+  disable! date: "2024-04-06", because: :versioned_formula
 
   depends_on "cmake" => [:build, :test]
   depends_on "boost"
