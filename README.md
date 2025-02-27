@@ -53,7 +53,11 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ## Available formulae
 
-### Linux-based OpenFOAM in a container
+* `styro`: a community package manager for OpenFOAM (https://github.com/gerlero/styro)
+
+    ```bash
+    brew install gerlero/openfoam/styro
+    ```
 
 * `openfoam-docker`: run script for the official OpenFOAM container images (https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/docker)
 
