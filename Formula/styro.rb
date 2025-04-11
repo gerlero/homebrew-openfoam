@@ -3,8 +3,8 @@ class Styro < Formula
 
   desc "Community package manager for OpenFOAM"
   homepage "https://github.com/gerlero/styro"
-  url "https://files.pythonhosted.org/packages/50/f5/03a0380867994e63d1305a5c13525bbf9cee4e880ae8a5d86eb534bcf304/styro-0.1.20.tar.gz"
-  sha256 "0d196db139085bc850e65f18650473baadd89700727295dcc03b0fce59c0d53e"
+  url "https://files.pythonhosted.org/packages/d3/2a/d0d2123ada8ae81c88dc0fad7727349df20c2e28f0c622c7658d331eac21/styro-0.1.21.tar.gz"
+  sha256 "e4d8ac9b98cd13fc01745979618155acf437cc7c8728c335ac3361217d1bc335"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
   depends_on "python@3.13"
@@ -45,8 +45,8 @@ class Styro < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/79/f2/5e10ba356eddf43b85b67df6fdd07dce882cc8479cfe434e97cc72603ac9/multidict-6.4.2.tar.gz"
-    sha256 "99f9b6596d2e126fa1777990868743fb4c1984ea5217606fabc153aff46160e6"
+    url "https://files.pythonhosted.org/packages/da/2c/e367dfb4c6538614a0c9453e510d75d66099edf1c4e69da1b5ce691a1931/multidict-6.4.3.tar.gz"
+    sha256 "3ada0b058c9f213c5f95ba301f922d402ac234f1111a7d8fd70f1b99f3c281ec"
   end
 
   resource "propcache" do
