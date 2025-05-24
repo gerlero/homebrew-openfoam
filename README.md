@@ -53,6 +53,12 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ## Available formulae
 
+* `foamlib`: a modern Python package for interacting with OpenFOAM (https://github.com/gerlero/foamlib)
+
+    ```bash
+    brew install gerlero/openfoam/foamlib
+    ```
+
 * `styro`: a community package manager for OpenFOAM (https://github.com/gerlero/styro)
 
     ```bash
