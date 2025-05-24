@@ -3,8 +3,8 @@ class Styro < Formula
 
   desc "Community package manager for OpenFOAM"
   homepage "https://github.com/gerlero/styro"
-  url "https://files.pythonhosted.org/packages/6b/d8/3859e9d109df872403083d876e3586b6f62d2f0c5ae78f2aefa7ba586797/styro-0.1.22.tar.gz"
-  sha256 "f599f3db023e2621b4dd1b8e81b4b18c2038733d336c1350489101a1eb16ada3"
+  url "https://files.pythonhosted.org/packages/df/a2/2e33bd532820d3c0d3365b5d50e2073d18254b64b7c248eef2962697d0ed/styro-0.1.23.tar.gz"
+  sha256 "52b798d74565a6478163c0744dbad1101b33a14f156fa11f615dc6524b3f770b"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
   depends_on "python@3.13"
@@ -15,8 +15,8 @@ class Styro < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/f1/d9/1c4721d143e14af753f2bf5e3b681883e1f24b592c0482df6fa6e33597fa/aiohttp-3.11.16.tar.gz"
-    sha256 "16f8a2c9538c14a557b4d309ed4d0a7c60f0253e8ed7b6c9a2859a7582f8b1b8"
+    url "https://files.pythonhosted.org/packages/63/e7/fa1a8c00e2c54b05dc8cb5d1439f627f7c267874e3f7bb047146116020f9/aiohttp-3.11.18.tar.gz"
+    sha256 "ae856e1138612b7e412db63b7708735cff4d38d0399f6a5435d3dac2669f558a"
   end
 
   resource "aiosignal" do
@@ -35,8 +35,8 @@ class Styro < Formula
   end
 
   resource "frozenlist" do
-    url "https://files.pythonhosted.org/packages/8f/ed/0f4cec13a93c02c47ec32d81d11c0c1efbadf4a471e3f3ce7cad366cbbd3/frozenlist-1.5.0.tar.gz"
-    sha256 "81d5af29e61b9c8348e876d442253723928dce6433e0e76cd925cd83f1b4b817"
+    url "https://files.pythonhosted.org/packages/ee/f4/d744cba2da59b5c1d88823cf9e8a6c74e4659e2b27604ed973be2a0bf5ab/frozenlist-1.6.0.tar.gz"
+    sha256 "b99655c32c1c8e06d111e7f41c06c29a5318cb1835df23a45518e02a47c63b68"
   end
 
   resource "idna" do
@@ -45,8 +45,8 @@ class Styro < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/da/2c/e367dfb4c6538614a0c9453e510d75d66099edf1c4e69da1b5ce691a1931/multidict-6.4.3.tar.gz"
-    sha256 "3ada0b058c9f213c5f95ba301f922d402ac234f1111a7d8fd70f1b99f3c281ec"
+    url "https://files.pythonhosted.org/packages/91/2f/a3470242707058fe856fe59241eee5635d79087100b7042a867368863a27/multidict-6.4.4.tar.gz"
+    sha256 "69ee9e6ba214b5245031b76233dd95408a0fd57fdb019ddcc1ead4790932a8e8"
   end
 
   resource "propcache" do
@@ -55,8 +55,8 @@ class Styro < Formula
   end
 
   resource "typer-slim" do
-    url "https://files.pythonhosted.org/packages/29/67/88189eb827c491646511dc6c806e2e6e543241cae5438383aa042b1dfa40/typer_slim-0.15.2.tar.gz"
-    sha256 "4a666bb7839a88f51dd25d078d36dbc1d0f37c8c2696e184fbc1f3eaa314a91b"
+    url "https://files.pythonhosted.org/packages/a0/75/fb85e49851d127316f30b7f6001fa0d378c14afdac280dace89d49992518/typer_slim-0.15.4.tar.gz"
+    sha256 "1d9fe638da58f4bdeae891512c47ed83915f81e7a0ee062cf6c572ff38473128"
   end
 
   resource "typing-extensions" do
@@ -65,8 +65,8 @@ class Styro < Formula
   end
 
   resource "yarl" do
-    url "https://files.pythonhosted.org/packages/fc/4d/8a8f57caccce49573e567744926f88c6ab3ca0b47a257806d1cf88584c5f/yarl-1.19.0.tar.gz"
-    sha256 "01e02bb80ae0dbed44273c304095295106e1d9470460e773268a27d11e594892"
+    url "https://files.pythonhosted.org/packages/62/51/c0edba5219027f6eab262e139f73e2417b0f4efffa23bf562f6e18f76ca5/yarl-1.20.0.tar.gz"
+    sha256 "686d51e51ee5dfe62dec86e4866ee0e9ed66df700d55c828a615640adc885307"
   end
 
   def install
