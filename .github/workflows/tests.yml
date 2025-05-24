@@ -10,12 +10,19 @@ jobs:
   test-bot:
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-13, macos-14, macos-15]
+        os: [ubuntu-22.04, macos-13, macos-14, macos-15]
     runs-on: ${{ matrix.os }}
+    permissions:
+      actions: read
+      checks: read
+      contents: read
+      pull-requests: read
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
+        with:
+          token: ${{ github.token }}
 
       - name: Cache Homebrew Bundler RubyGems
         uses: actions/cache@v4
@@ -29,7 +36,6 @@ jobs:
       - run: brew test-bot --only-setup
 
       - run: brew test-bot --only-tap-syntax
-
       - run: brew test-bot --only-formulae
         if: github.event_name == 'pull_request'
 

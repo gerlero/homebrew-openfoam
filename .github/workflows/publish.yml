@@ -8,13 +8,18 @@ on:
 jobs:
   pr-pull:
     if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
+      actions: read
+      checks: read
       contents: write
+      issues: read
       pull-requests: write
     steps:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
+        with:
+          token: ${{ github.token }}
 
       - name: Set up git
         uses: Homebrew/actions/git-user-config@master
@@ -28,7 +33,6 @@ jobs:
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master
         with:
-          token: ${{ github.token }}
           branch: main
 
       - name: Delete branch
