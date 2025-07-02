@@ -1,11 +1,11 @@
 cask "openfoam" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.1.0"
-  sha256 arm:   "7e878797d5261f9bbcf8da0437b543448f992e137d36b1321a233746db291a97",
-         intel: "206731881ab08e074d49c4680978c14068c19da80d8705a6289e2b777578d851"
+  version "2.1.1"
+  sha256 arm:   "948bbefa31f77aecf157086c35d47a741a4dc8f19b73bf8295bf32c559a27da5",
+         intel: "df4dccf576ac213aa7ea5dd726b59c777eafdc519ea041a34bc04812933a4445"
 
-  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2412-app-#{arch}.zip"
+  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2506-app-#{arch}.zip"
   name "OpenFOAM"
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
@@ -15,14 +15,14 @@ cask "openfoam" do
     strategy :github_latest
   end
 
-  conflicts_with cask: "openfoam@2412"
+  conflicts_with cask: "openfoam@2506"
 
-  app "OpenFOAM-v2412.app"
-  binary "#{appdir}/OpenFOAM-v2412.app/Contents/Resources/etc/openfoam", target: "openfoam2412"
-  binary "#{appdir}/OpenFOAM-v2412.app/Contents/Resources/etc/openfoam", target: "openfoam"
+  app "OpenFOAM-v2506.app"
+  binary "#{appdir}/OpenFOAM-v2506.app/Contents/Resources/etc/openfoam", target: "openfoam2506"
+  binary "#{appdir}/OpenFOAM-v2506.app/Contents/Resources/etc/openfoam", target: "openfoam"
 
   uninstall script: {
-    executable:   "#{staged_path}/OpenFOAM-v2412.app/Contents/Resources/volume",
+    executable:   "#{staged_path}/OpenFOAM-v2506.app/Contents/Resources/volume",
     args:         ["eject"],
     must_succeed: false,
   }
