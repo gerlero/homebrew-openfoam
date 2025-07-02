@@ -1,7 +1,7 @@
 cask "openfoam@2506" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.1.0"
+  version "2.1.1"
   sha256 arm:   "948bbefa31f77aecf157086c35d47a741a4dc8f19b73bf8295bf32c559a27da5",
          intel: "df4dccf576ac213aa7ea5dd726b59c777eafdc519ea041a34bc04812933a4445"
 
