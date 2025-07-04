@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/8d/82/d7d520fe761b46352be08ae999cf5f2fd32d060ace7d44739fd07db24626/foamlib-1.0.0.tar.gz"
-  sha256 "830881df1d16f569eda236e7c066199915e04f1041bcb5fc279e2afe21f0c3e0"
+  url "https://files.pythonhosted.org/packages/ac/11/f0c0e5ac2c327694d6b9e6a1b81bea85dcc5109da0d674216cec7492b3ad/foamlib-1.1.0.tar.gz"
+  sha256 "be50f9d11aeaa618972fd501f7ac95a3bef84f15bd10d3f3ea11b2e3eb7aa8ad"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -26,9 +26,14 @@ class Foamlib < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "numpy" do
+    url "https://files.pythonhosted.org/packages/2e/19/d7c972dfe90a353dbd3efbbe1d14a5951de80c99c9dc1b93cd998d51dc0f/numpy-2.3.1.tar.gz"
+    sha256 "1ec9ae20a4226da374362cca3c62cd753faf2f951440b0e3b98e93c235441d2b"
+  end
+
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
-    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
+    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
+    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
   end
 
   resource "pyparsing" do
