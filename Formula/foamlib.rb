@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/ac/11/f0c0e5ac2c327694d6b9e6a1b81bea85dcc5109da0d674216cec7492b3ad/foamlib-1.1.0.tar.gz"
-  sha256 "be50f9d11aeaa618972fd501f7ac95a3bef84f15bd10d3f3ea11b2e3eb7aa8ad"
+  url "https://files.pythonhosted.org/packages/4b/a9/f0035bd7dd1556ae9a07a6840780df41641301dd83225d2d7b117aafccad/foamlib-1.1.1.tar.gz"
+  sha256 "c25bab60b79e9b9a9d51046ca0c3e8f50973707de0f814ab3ddb60b01b6e3e12"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
