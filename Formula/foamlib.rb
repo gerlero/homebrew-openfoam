@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/ad/f5/47e1d259e860aa2af04772b60449ee9d0c82d0f599d98101902432133d73/foamlib-1.1.2.tar.gz"
-  sha256 "a26f9fd28d4caafbf914b5114e4c8fcf143bee00be8da539c9706a021b6cbc1b"
+  url "https://files.pythonhosted.org/packages/7d/92/12e29c695a6c6f24ab502ca251db9c3def1b7b04bde953f9f9752cdd43a8/foamlib-1.1.5.tar.gz"
+  sha256 "00f94004db48b2e532929d56dd0bcc1292194de2a2840990e2b57f8f24ebcc70"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -17,8 +17,8 @@ class Foamlib < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/38/71/3b932df36c1a044d397a1f92d1cf91ee0a503d91e470cbd670aa66b07ed0/markdown-it-py-3.0.0.tar.gz"
-    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
+    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
+    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
   end
 
   resource "mdurl" do
@@ -27,8 +27,8 @@ class Foamlib < Formula
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/2e/19/d7c972dfe90a353dbd3efbbe1d14a5951de80c99c9dc1b93cd998d51dc0f/numpy-2.3.1.tar.gz"
-    sha256 "1ec9ae20a4226da374362cca3c62cd753faf2f951440b0e3b98e93c235441d2b"
+    url "https://files.pythonhosted.org/packages/37/7d/3fec4199c5ffb892bed55cff901e4f39a58c81df9c44c280499e92cad264/numpy-2.3.2.tar.gz"
+    sha256 "e0486a11ec30cdecb53f184d496d1c6a20786c81e55e41640270130056f8ee48"
   end
 
   resource "pygments" do
@@ -42,8 +42,8 @@ class Foamlib < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz"
-    sha256 "82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725"
+    url "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz"
+    sha256 "e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8"
   end
 
   def python3
