@@ -3,8 +3,8 @@ class Styro < Formula
 
   desc "Community package manager for OpenFOAM"
   homepage "https://github.com/gerlero/styro"
-  url "https://files.pythonhosted.org/packages/71/68/d15cd01d40c8a7d3a26b6324a2f2e7536407641359710b299ed8469a3a76/styro-0.1.26.tar.gz"
-  sha256 "a0c517f12883d7390a77cba97b39f020bcd3318b1d089b36d440c13648667d4d"
+  url "https://files.pythonhosted.org/packages/11/7d/02ecdd50d659c63a4ddc22763f641aea50390092ed6ba1460b2c64e19709/styro-0.1.28.tar.gz"
+  sha256 "01119320f1942978b7667963bb61207f0de10ec622a050f53b023e0885a7578a"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
   depends_on "python@3.13"
