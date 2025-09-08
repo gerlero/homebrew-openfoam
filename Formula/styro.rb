@@ -3,8 +3,8 @@ class Styro < Formula
 
   desc "Community package manager for OpenFOAM"
   homepage "https://github.com/gerlero/styro"
-  url "https://files.pythonhosted.org/packages/11/7d/02ecdd50d659c63a4ddc22763f641aea50390092ed6ba1460b2c64e19709/styro-0.1.28.tar.gz"
-  sha256 "01119320f1942978b7667963bb61207f0de10ec622a050f53b023e0885a7578a"
+  url "https://files.pythonhosted.org/packages/13/47/58ea343da4e26b2a5e97f6bd667e60dd87313acb8798f8b32948c0b2194a/styro-0.1.29.tar.gz"
+  sha256 "dd870f18496774aac0d0f652a619ca489196a3e01f789e1b4cacbe1b91a024ea"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
   depends_on "python@3.13"
@@ -30,8 +30,8 @@ class Styro < Formula
   end
 
   resource "cyclopts" do
-    url "https://files.pythonhosted.org/packages/ea/7a/28b63c43d4c17d6587abcfef648841d39543158bcc47b5d40a03b8831f7a/cyclopts-3.23.1.tar.gz"
-    sha256 "ca6a5e9b326caf156d79f3932e2f88b95629e59fd371c0b3a89732b7619edacb"
+    url "https://files.pythonhosted.org/packages/30/ca/7782da3b03242d5f0a16c20371dff99d4bd1fedafe26bc48ff82e42be8c9/cyclopts-3.24.0.tar.gz"
+    sha256 "de6964a041dfb3c57bf043b41e68c43548227a17de1bad246e3a0bfc5c4b7417"
   end
 
   resource "docstring-parser" do
