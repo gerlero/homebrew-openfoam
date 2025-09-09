@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/64/dc/ba09818cd384b25d52bfae21b589c0671d4391f3e177c344fdcf66dee059/foamlib-1.3.4.tar.gz"
-  sha256 "e99b760012ba36bb766b93843cc041230c4d60d1a409852959336fb965ae9d35"
+  url "https://files.pythonhosted.org/packages/62/02/72b2545dcf48daaff76a98437a764127148d1471ff72ace3e24cdf7741da/foamlib-1.3.5.tar.gz"
+  sha256 "2e36d8e817f28379bd87ebc6de8ec3e4137da150bc548528ae701d9f5eab6603"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -27,8 +27,8 @@ class Foamlib < Formula
   end
 
   resource "multicollections" do
-    url "https://files.pythonhosted.org/packages/63/53/af3b423171027e3d55016ba61a147424cbf0f37f77980867a77168e97654/multicollections-1.0.2.tar.gz"
-    sha256 "9222744c671126c562420004eabda0c0ef57d1022130d4c17363af7d905e310d"
+    url "https://files.pythonhosted.org/packages/40/86/6c2bda9779f7326501c9e5ecc6c449edd431df122ee5bf55a1ac915ce12f/multicollections-1.0.4.tar.gz"
+    sha256 "cad107bae50bab377355110ecb1329341167d961acce97545f3086e035d21762"
   end
 
   resource "numpy" do
