@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/62/02/72b2545dcf48daaff76a98437a764127148d1471ff72ace3e24cdf7741da/foamlib-1.3.5.tar.gz"
-  sha256 "2e36d8e817f28379bd87ebc6de8ec3e4137da150bc548528ae701d9f5eab6603"
+  url "https://files.pythonhosted.org/packages/e2/03/a3b280d2e32ae0d84abc5d685cc569667abb334238fea40d71833f265e5a/foamlib-1.3.9.tar.gz"
+  sha256 "89749516218d972fbbb4ee5810c5c2a8ef0bf30ac714d914871726aff6cb7829"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -27,13 +27,13 @@ class Foamlib < Formula
   end
 
   resource "multicollections" do
-    url "https://files.pythonhosted.org/packages/40/86/6c2bda9779f7326501c9e5ecc6c449edd431df122ee5bf55a1ac915ce12f/multicollections-1.0.4.tar.gz"
-    sha256 "cad107bae50bab377355110ecb1329341167d961acce97545f3086e035d21762"
+    url "https://files.pythonhosted.org/packages/10/65/0c8ad113380e4765f74d144547592b22a33363f3e1ed158d4ad441ac74d6/multicollections-1.0.5.tar.gz"
+    sha256 "a58c28581dc2d981237c5a60d66028e6ef596858f75f2a3dcfb0091ebfe1c788"
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/37/7d/3fec4199c5ffb892bed55cff901e4f39a58c81df9c44c280499e92cad264/numpy-2.3.2.tar.gz"
-    sha256 "e0486a11ec30cdecb53f184d496d1c6a20786c81e55e41640270130056f8ee48"
+    url "https://files.pythonhosted.org/packages/d0/19/95b3d357407220ed24c139018d2518fab0a61a948e68286a25f1a4d049ff/numpy-2.3.3.tar.gz"
+    sha256 "ddc7c39727ba62b80dfdbedf400d1c10ddfa8eefbd7ec8dcb118be8b56d31029"
   end
 
   resource "pygments" do
@@ -42,8 +42,8 @@ class Foamlib < Formula
   end
 
   resource "pyparsing" do
-    url "https://files.pythonhosted.org/packages/bb/22/f1129e69d94ffff626bdb5c835506b3a5b4f3d070f17ea295e12c2c6f60f/pyparsing-3.2.3.tar.gz"
-    sha256 "b9c13f1ab8b3b542f72e28f634bad4de758ab3ce4546e4301970ad6fa77c38be"
+    url "https://files.pythonhosted.org/packages/98/c9/b4594e6a81371dfa9eb7a2c110ad682acf985d96115ae8b25a1d63b4bf3b/pyparsing-3.2.4.tar.gz"
+    sha256 "fff89494f45559d0f2ce46613b419f632bbb6afbdaed49696d322bcf98a58e99"
   end
 
   resource "rich" do
