@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/e2/03/a3b280d2e32ae0d84abc5d685cc569667abb334238fea40d71833f265e5a/foamlib-1.3.9.tar.gz"
-  sha256 "89749516218d972fbbb4ee5810c5c2a8ef0bf30ac714d914871726aff6cb7829"
+  url "https://files.pythonhosted.org/packages/5b/da/7426f135f66be377f721d855cd32e1dd0423beeba2a967ede99c3a2cc74f/foamlib-1.3.11.tar.gz"
+  sha256 "12d92e13dd0611a73d89007d45b1cfa916f113968e0641cbd7a986030fe3cde0"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -42,8 +42,8 @@ class Foamlib < Formula
   end
 
   resource "pyparsing" do
-    url "https://files.pythonhosted.org/packages/98/c9/b4594e6a81371dfa9eb7a2c110ad682acf985d96115ae8b25a1d63b4bf3b/pyparsing-3.2.4.tar.gz"
-    sha256 "fff89494f45559d0f2ce46613b419f632bbb6afbdaed49696d322bcf98a58e99"
+    url "https://files.pythonhosted.org/packages/f2/a5/181488fc2b9d093e3972d2a472855aae8a03f000592dbfce716a512b3359/pyparsing-3.2.5.tar.gz"
+    sha256 "2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6"
   end
 
   resource "rich" do
