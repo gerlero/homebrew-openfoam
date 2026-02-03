@@ -1,5 +1,5 @@
 cask "openfoam@2506" do
-  arch arm: "arm64", intel: "x86-64"
+  arch arm: "arm64", intel: "x86_64"
 
   on_arm do
     version "2.1.3"
