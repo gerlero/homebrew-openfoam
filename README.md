@@ -12,61 +12,61 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 * `openfoam`: **OpenFOAM.app** (latest OpenFOAM version—currently v2512)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam
+    brew install gerlero/openfoam/openfoam
     ```
 
 * `openfoam@2506`: **OpenFOAM-v2512.app**
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2512
+    brew install gerlero/openfoam/openfoam@2512
     ```
 
 * `openfoam@2506`: **OpenFOAM-v2506.app**
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2506
+    brew install gerlero/openfoam/openfoam@2506
     ```
 
 * `openfoam@2412`: **OpenFOAM-v2412.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2412
+    brew install gerlero/openfoam/openfoam@2412
     ```
 
 * `openfoam@2406`: **OpenFOAM-v2406.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2406
+    brew install gerlero/openfoam/openfoam@2406
     ```
 
 * `openfoam@2312`: **OpenFOAM-v2312.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2312
+    brew install gerlero/openfoam/openfoam@2312
     ```
 
 * `openfoam@2306`: **OpenFOAM-v2306.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2306
+    brew install gerlero/openfoam/openfoam@2306
     ```
 
 * `openfoam@2212`: **OpenFOAM-v2212.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2212
+    brew install gerlero/openfoam/openfoam@2212
     ```
 
 * `openfoam@2206`: **OpenFOAM-v2206.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2206
+    brew install gerlero/openfoam/openfoam@2206
     ```
 
 * `openfoam@2112`: **OpenFOAM-v2112.app** (discontinued)
 
     ```bash
-    brew install --no-quarantine gerlero/openfoam/openfoam@2112
+    brew install gerlero/openfoam/openfoam@2112
     ```
 
 ## Available formulae
