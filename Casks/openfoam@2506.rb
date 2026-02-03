@@ -17,6 +17,10 @@ cask "openfoam@2506" do
   app "OpenFOAM-v2506.app"
   binary "#{appdir}/OpenFOAM-v2506.app/Contents/Resources/etc/openfoam", target: "openfoam2506"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-rd", "com.apple.quarantine", "#{appdir}/OpenFOAM-v2506.app"]
+  end
+
   uninstall script: {
     executable:   "#{staged_path}/OpenFOAM-v2506.app/Contents/Resources/volume",
     args:         ["eject"],
