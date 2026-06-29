@@ -15,10 +15,9 @@ cask "openfoam@2506" do
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
+  deprecate! date: "2026-06-29", because: :discontinued
+
+  depends_on :macos
 
   app "OpenFOAM-v2506.app"
   binary "#{appdir}/OpenFOAM-v2506.app/Contents/Resources/etc/openfoam", target: "openfoam2506"
