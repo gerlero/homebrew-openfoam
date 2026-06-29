@@ -12,6 +12,8 @@ cask "openfoam@2212" do
 
   deprecate! date: "2023-12-23", because: :discontinued
 
+  depends_on :macos
+
   app "OpenFOAM-v2212.app"
   binary "#{appdir}/OpenFOAM-v2212.app/Contents/Resources/etc/openfoam", target: "openfoam2212"
 
