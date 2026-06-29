@@ -12,7 +12,6 @@ cask "openfoam@2512" do
     strategy :github_latest
   end
 
-  conflicts_with cask: "openfoam"
   depends_on arch: :arm64
 
   app "OpenFOAM-v2512.app"
