@@ -1,6 +1,6 @@
 cask "openfoam@2512" do
-  version "2.1.3"
-  sha256 "22ffc888ba49fc6ab3c2207ad33e8044ebc0783edba638f31ecdefd434093d00"
+  version "2.2.0"
+  sha256 "66bd09af6d1425bbdf416dd1116454fef1c692ba721dedbb27aa43d04512ef9c"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2512-app-arm64.zip"
   name "OpenFOAM"
@@ -13,6 +13,7 @@ cask "openfoam@2512" do
   end
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "OpenFOAM-v2512.app"
   binary "#{appdir}/OpenFOAM-v2512.app/Contents/Resources/etc/openfoam", target: "openfoam2512"
