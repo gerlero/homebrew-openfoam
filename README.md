@@ -9,61 +9,67 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
 
 ### OpenFOAM.app: Native OpenFOAM for macOS (https://github.com/gerlero/openfoam-app)
 
-* `openfoam`: **OpenFOAM.app** (latest OpenFOAM version—currently v2512)
+* `openfoam`: **OpenFOAM.app** (latest OpenFOAM version—currently v2606)
 
     ```bash
     brew install gerlero/openfoam/openfoam
     ```
+    
+* `openfoam@2606`: **OpenFOAM-v2606.app**
 
-* `openfoam@2506`: **OpenFOAM-v2512.app**
+    ```bash
+    brew install gerlero/openfoam/openfoam@2606
+    ```
+
+* `openfoam@2512`: **OpenFOAM-v2512.app**
 
     ```bash
     brew install gerlero/openfoam/openfoam@2512
     ```
 
-* `openfoam@2506`: **OpenFOAM-v2506.app**
+* `openfoam@2506`: **OpenFOAM-v2506.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2506
     ```
 
-* `openfoam@2412`: **OpenFOAM-v2412.app** (discontinued)
+* `openfoam@2412`: **OpenFOAM-v2412.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2412
     ```
 
-* `openfoam@2406`: **OpenFOAM-v2406.app** (discontinued)
+* `openfoam@2406`: **OpenFOAM-v2406.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2406
     ```
 
-* `openfoam@2312`: **OpenFOAM-v2312.app** (discontinued)
+* `openfoam@2312`: **OpenFOAM-v2312.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2312
     ```
 
-* `openfoam@2306`: **OpenFOAM-v2306.app** (discontinued)
+* `openfoam@2306`: **OpenFOAM-v2306.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2306
     ```
 
-* `openfoam@2212`: **OpenFOAM-v2212.app** (discontinued)
+* `openfoam@2212`: **OpenFOAM-v2212.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2212
     ```
 
-* `openfoam@2206`: **OpenFOAM-v2206.app** (discontinued)
+* `openfoam@2206`: **OpenFOAM-v2206.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2206
     ```
 
-* `openfoam@2112`: **OpenFOAM-v2112.app** (discontinued)
+* `openfoam@2112`: **OpenFOAM-v2112.app** (deprecated)
 
     ```bash
     brew install gerlero/openfoam/openfoam@2112
