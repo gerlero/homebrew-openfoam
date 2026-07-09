@@ -12,7 +12,7 @@ cask "openfoam" do
     strategy :github_latest
   end
 
-  conflicts_with cask: "openfoam@2606"
+  conflicts_with cask: "gerlero/openfoam/openfoam@2606"
   depends_on arch: :arm64
   depends_on :macos
 
