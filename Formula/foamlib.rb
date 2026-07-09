@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/5b/da/7426f135f66be377f721d855cd32e1dd0423beeba2a967ede99c3a2cc74f/foamlib-1.3.11.tar.gz"
-  sha256 "12d92e13dd0611a73d89007d45b1cfa916f113968e0641cbd7a986030fe3cde0"
+  url "https://files.pythonhosted.org/packages/92/4e/0bbac4ceb407181afce1b6ef074d12560d18bbaa2ee426189b770b4b4ce9/foamlib-1.6.1.tar.gz"
+  sha256 "1c00dd0be82ddf45067165a05a5f876222f76d967a46d4c86d9728919954105e"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -12,13 +12,13 @@ class Foamlib < Formula
   depends_on "python@3.13"
 
   resource "aioshutil" do
-    url "https://files.pythonhosted.org/packages/75/e4/ef86f1777a9bc0c51d50487b471644ae20941afe503591d3a4c86e456dac/aioshutil-1.5.tar.gz"
-    sha256 "2756d6cd3bb03405dc7348ac11a0b60eb949ebd63cdd15f56e922410231c1201"
+    url "https://files.pythonhosted.org/packages/d3/bd/dcea5abb1792269e70cc75d5f9ae9adbdfba0f0d08a207eb788ec3b469b6/aioshutil-1.6.tar.gz"
+    sha256 "9eae342b9a4cacc2c2c5877877a2d2f7a2b66c62aa1ab57d7e95c8cfd4ede507"
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
-    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
+    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
   end
 
   resource "mdurl" do
@@ -27,28 +27,23 @@ class Foamlib < Formula
   end
 
   resource "multicollections" do
-    url "https://files.pythonhosted.org/packages/10/65/0c8ad113380e4765f74d144547592b22a33363f3e1ed158d4ad441ac74d6/multicollections-1.0.5.tar.gz"
-    sha256 "a58c28581dc2d981237c5a60d66028e6ef596858f75f2a3dcfb0091ebfe1c788"
+    url "https://files.pythonhosted.org/packages/1a/9a/b0993de2190d9dff89f930cba923b1071cd53f8343052bfb97de238a2ae6/multicollections-1.0.8.tar.gz"
+    sha256 "aaeb7b2c1f4a54a508867935068569229a67f9be33fa93dbc182221e27b6976a"
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/d0/19/95b3d357407220ed24c139018d2518fab0a61a948e68286a25f1a4d049ff/numpy-2.3.3.tar.gz"
-    sha256 "ddc7c39727ba62b80dfdbedf400d1c10ddfa8eefbd7ec8dcb118be8b56d31029"
+    url "https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz"
+    sha256 "a48a113e6afea91f5608793bafa7ef2ad481fefbda87ec5069f483de61cb9fa3"
   end
 
   resource "pygments" do
-    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
-    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
-  end
-
-  resource "pyparsing" do
-    url "https://files.pythonhosted.org/packages/f2/a5/181488fc2b9d093e3972d2a472855aae8a03f000592dbfce716a512b3359/pyparsing-3.2.5.tar.gz"
-    sha256 "2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6"
+    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
+    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz"
-    sha256 "e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8"
+    url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
+    sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
 
   def python3
