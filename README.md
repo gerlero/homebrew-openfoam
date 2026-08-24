@@ -88,9 +88,3 @@ This repository defines a [custom tap](https://docs.brew.sh/Taps) for [Homebrew]
     ```bash
     brew install gerlero/openfoam/styro
     ```
-
-* `openfoam-docker`: run script for the official OpenFOAM container images (https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/docker)
-
-    ```bash
-    brew install gerlero/openfoam/openfoam-docker
-    ```
