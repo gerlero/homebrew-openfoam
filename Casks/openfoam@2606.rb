@@ -1,6 +1,6 @@
 cask "openfoam@2606" do
-  version "2.2.0"
-  sha256 "0b4cdea5a51ed75974f501d23be5450182cf37335428f37466bca745ca5f06f9"
+  version "2.2.1"
+  sha256 "b0b297a4ba21de889ad6abc62a8c4f93b1ed9a0b3bcf8484c28bb38c9c2e0c50"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2606-app-arm64.zip"
   name "OpenFOAM"
@@ -14,7 +14,7 @@ cask "openfoam@2606" do
 
   conflicts_with cask: "gerlero/openfoam/openfoam"
   depends_on arch: :arm64
-  depends_on :macos
+  depends_on macos: :sonoma
 
   app "OpenFOAM-v2606.app"
   binary "#{appdir}/OpenFOAM-v2606.app/Contents/Resources/etc/openfoam", target: "openfoam2606"
