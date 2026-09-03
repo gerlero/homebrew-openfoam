@@ -8,6 +8,12 @@ class Foamlib < Formula
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/foamlib-1.8.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f820c4bdd46d3a0c8be1da7ed2ba91df61a5eb2264a48392e3e37810a2bf4ab1"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "85fa57cf41b236f46c6967d908d560abada1a3b9057ee486981fb57f7b39c185"
+  end
+
   depends_on "rust" => :build # for uv_build > maturin
   depends_on "numpy" => :no_linkage
   depends_on "python@3.14"
