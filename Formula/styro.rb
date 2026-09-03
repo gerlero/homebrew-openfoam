@@ -8,6 +8,12 @@ class Styro < Formula
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/styro-0.1.35"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f6d2cb01beb87c727c2799b04e8a715c96a2283fa8b0ef37aa2c60c94b29f1b9"
+    sha256 cellar: :any,                 x86_64_linux: "2215c8c3e521369336e274b94b0895e9cb82a6940e99e4b610216dcfa005b279"
+  end
+
   depends_on "rust" => :build # for uv_build > maturin
   depends_on "python@3.14"
 
