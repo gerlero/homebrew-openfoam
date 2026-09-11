@@ -3,8 +3,8 @@ class Styro < Formula
 
   desc "Package manager for OpenFOAM"
   homepage "https://github.com/gerlero/styro"
-  url "https://files.pythonhosted.org/packages/b7/82/bba21cd94c16f64df8fb85caa7fd8dfd6c7b99e89a4556a67a1f50a9fa9f/styro-0.1.35.tar.gz"
-  sha256 "b0574ff6f7a049abe2eabc19df19fad783d73a7a9dc50f85102acd5f3e916d89"
+  url "https://files.pythonhosted.org/packages/f2/72/1bdb404e9b45c0551dc31c2c7939e9dc0400b84b4e138d7312a432471031/styro-0.1.38.tar.gz"
+  sha256 "6826fcb23493a930e4045d9ff5193d2248ccadddea42660e3a805184b24848a4"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/styro.git", branch: "main"
 
@@ -43,13 +43,18 @@ class Styro < Formula
   end
 
   resource "cyclopts" do
-    url "https://files.pythonhosted.org/packages/e6/4e/9d8d4ac3be590cc6553047bfdd53dc6ed776fe3e180ad77559629b0d1c66/cyclopts-4.24.0.tar.gz"
-    sha256 "9bf9da3f09a0ff74aa6621e1644abfdde3b22158b0c09b5aaa6f82bd0c31c526"
+    url "https://files.pythonhosted.org/packages/16/8f/6caec9cf291ba294a0d0669b0388e5676d8887d8b75a8c3ad0a2dc2eeed9/cyclopts-4.25.2.tar.gz"
+    sha256 "0776bc1fa796cd351646c345b7420279e58d6c2c4a8f5d5dd54dea85bdb2de8f"
   end
 
   resource "docstring-parser" do
     url "https://files.pythonhosted.org/packages/e0/4d/f332313098c1de1b2d2ff91cf2674415cc7cddab2ca1b01ae29774bd5fdf/docstring_parser-0.18.0.tar.gz"
     sha256 "292510982205c12b1248696f44959db3cdd1740237a968ea1e2e7a900eeb2015"
+  end
+
+  resource "dulwich" do
+    url "https://files.pythonhosted.org/packages/0d/7b/d03c166f6098314824bdd2e661a32563c0ebe8c5e3344ed212d2ffc96a10/dulwich-1.2.14.tar.gz"
+    sha256 "ed8bfcfe1c7e187d1bc5e78f7c128a07d229d7b425433b04cbb89334678bd3b1"
   end
 
   resource "frozenlist" do
@@ -73,8 +78,8 @@ class Styro < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/1a/c2/c2d94cbe6ac1753f3fc980da97b3d930efe1da3af3c9f5125354436c073d/multidict-6.7.1.tar.gz"
-    sha256 "ec6652a1bee61c53a3e5776b6049172c53b6aaba34f18c9ad04f82712bac623d"
+    url "https://files.pythonhosted.org/packages/14/95/989c1b5ca17b72128661530cd6e351a0a83cda9a4d6c036e9ed976c18931/multidict-6.8.0.tar.gz"
+    sha256 "5cd4637ce76312ba1e05eb9c5193fec231f64fee0944e135fa1e951242355b37"
   end
 
   resource "propcache" do
@@ -95,6 +100,11 @@ class Styro < Formula
   resource "rich-rst" do
     url "https://files.pythonhosted.org/packages/e2/d6/d0b9fafc73b65767200da027acab1db1bdb1048f4fea5ebf659df01c700e/rich_rst-2.1.0.tar.gz"
     sha256 "f4d117b49697f338769759fa5cacf5197da4888b347b9fda2e50aef5cd8d93bd"
+  end
+
+  resource "urllib3" do
+    url "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz"
+    sha256 "231e0ec3b63ceb14667c67be60f2f2c40a518cb38b03af60abc813da26505f4c"
   end
 
   resource "yarl" do
