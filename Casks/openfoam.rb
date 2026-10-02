@@ -1,6 +1,6 @@
 cask "openfoam" do
-  version "2.2.2"
-  sha256 "5976d82f905335dc7229ee8220cb5128d662f05f70af5cfac6a3681b74d6880d"
+  version "2.2.3"
+  sha256 "22456639168cff9fab89335224e5dfe2627e7942e93e99bd0540f60d89679e49"
 
   url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2606-app-arm64.zip"
   name "OpenFOAM"
