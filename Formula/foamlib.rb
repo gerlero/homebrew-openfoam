@@ -3,8 +3,8 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/3d/7b/f771ee2099ddaf6b504b01fa830d26ddf0984421483a1b1ba09998fa3804/foamlib-1.8.1.tar.gz"
-  sha256 "44af7467c176682c8401519e5a587a2b769bdd5b0f0ca2c3cd755dafe2b7fe01"
+  url "https://files.pythonhosted.org/packages/b4/50/a5fe7e2f65d61a949cbdb0a727308c2ffd195e7e5b80068fd7f59b9f33b2/foamlib-1.10.2.tar.gz"
+  sha256 "7f050a14cb699169c84e9b90f291421b395617b8a788386d1ce5f6486a792ed5"
   license "GPL-3.0-only"
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
@@ -17,6 +17,8 @@ class Foamlib < Formula
   depends_on "rust" => :build # for uv_build > maturin
   depends_on "numpy" => :no_linkage
   depends_on "python@3.14"
+
+  pypi_packages exclude_packages: "numpy"
 
   resource "aioshutil" do
     url "https://files.pythonhosted.org/packages/d3/bd/dcea5abb1792269e70cc75d5f9ae9adbdfba0f0d08a207eb788ec3b469b6/aioshutil-1.6.tar.gz"
@@ -34,8 +36,8 @@ class Foamlib < Formula
   end
 
   resource "multicollections" do
-    url "https://files.pythonhosted.org/packages/eb/0c/9c88577177a13407b31fa9ca98831782112530b48dab61e1e50d93883ab6/multicollections-1.1.7.tar.gz"
-    sha256 "4545a53d54703e80f1ee613f2015a6b365d4426d1cbf2491e09e7e7821d82043"
+    url "https://files.pythonhosted.org/packages/b4/58/40f20f664534a3df1803c71cf2620b56c9be3efe09f1be5a9defd6850f98/multicollections-2.0.0.tar.gz"
+    sha256 "923b232d4f0b65466279d7a5c986a0d1a251dcb546b95597df0483c2eef3fe35"
   end
 
   resource "pygments" do
