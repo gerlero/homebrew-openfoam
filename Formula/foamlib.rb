@@ -6,6 +6,7 @@ class Foamlib < Formula
   url "https://files.pythonhosted.org/packages/b4/50/a5fe7e2f65d61a949cbdb0a727308c2ffd195e7e5b80068fd7f59b9f33b2/foamlib-1.10.2.tar.gz"
   sha256 "7f050a14cb699169c84e9b90f291421b395617b8a788386d1ce5f6486a792ed5"
   license "GPL-3.0-only"
+  revision 1
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
   bottle do
@@ -16,7 +17,7 @@ class Foamlib < Formula
 
   depends_on "rust" => :build # for uv_build > maturin
   depends_on "numpy" => :no_linkage
-  depends_on "python@3.14"
+  depends_on "python@3.15"
 
   pypi_packages exclude_packages: "numpy"
 
@@ -56,7 +57,7 @@ class Foamlib < Formula
   end
 
   def python3
-    which("python3.14")
+    which("python3.15")
   end
 
   def install
