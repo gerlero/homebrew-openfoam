@@ -6,6 +6,7 @@ class Styro < Formula
   url "https://files.pythonhosted.org/packages/b4/8e/1e60d0dad9817af1228f7d8bfd6feccd60343ef4b5fec05155e5b5aa9334/styro-0.1.39.tar.gz"
   sha256 "8e860ebc31528e64f1a7310a34bc99f51c01f33a0fbc46e96505634f2c0f6138"
   license "GPL-3.0-only"
+  revision 1
   head "https://github.com/gerlero/styro.git", branch: "main"
 
   bottle do
@@ -15,7 +16,7 @@ class Styro < Formula
   end
 
   depends_on "rust" => :build # for uv_build > maturin
-  depends_on "python@3.14"
+  depends_on "python@3.15"
 
   resource "aiohappyeyeballs" do
     url "https://files.pythonhosted.org/packages/ce/f4/eec0465c2f67b2664688d0240b3212d5196fd89e741df67ddb81f8d35658/aiohappyeyeballs-2.7.1.tar.gz"
