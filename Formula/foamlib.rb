@@ -3,10 +3,9 @@ class Foamlib < Formula
 
   desc "Modern Python package for interacting with OpenFOAM"
   homepage "https://github.com/gerlero/foamlib"
-  url "https://files.pythonhosted.org/packages/b4/50/a5fe7e2f65d61a949cbdb0a727308c2ffd195e7e5b80068fd7f59b9f33b2/foamlib-1.10.2.tar.gz"
-  sha256 "7f050a14cb699169c84e9b90f291421b395617b8a788386d1ce5f6486a792ed5"
+  url "https://files.pythonhosted.org/packages/db/53/c11032592b2f43fc844f4dbc8fda711edd3dc63c091ddcc99f3b0c2fd4f9/foamlib-1.10.4.tar.gz"
+  sha256 "3787a53fefd94a68243efc49e9cee93bc29bdd406a8240532251be46d9296fa5"
   license "GPL-3.0-only"
-  revision 1
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
   bottle do
@@ -27,8 +26,8 @@ class Foamlib < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
-    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
+    url "https://files.pythonhosted.org/packages/16/fc/cee2c45553c9a9bf77d8b0c391560c556d7ed756b1f0bb35eb5d48db09ea/markdown_it_py-4.3.0.tar.gz"
+    sha256 "91a58fa5b72c71a40cf7177250fd767480d7a2bb3ac426ccfb76fb90305fdaaa"
   end
 
   resource "mdurl" do
@@ -49,11 +48,6 @@ class Foamlib < Formula
   resource "rich" do
     url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
     sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
-  end
-
-  resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
-    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   def python3
