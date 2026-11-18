@@ -1,8 +1,8 @@
 cask "openfoam@2512" do
-  version "2.2.3"
-  sha256 "e1bf2c1b58a6d125199d34b78dbf1372984210381edbc62812be4b8d6c8d97f1"
+  version "2.3.0"
+  sha256 "a201c6b599a1071323b8c28a0b8a5a72311d24f2fc8c0c362cab246c7e302432"
 
-  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2512-app-arm64.zip"
+  url "https://github.com/gerlero/openfoam-app/releases/download/v#{version}/openfoam2512-app.zip"
   name "OpenFOAM"
   desc "Open-source toolbox for Computational Fluid Dynamics (CFD)"
   homepage "https://github.com/gerlero/openfoam-app/"
@@ -13,7 +13,7 @@ cask "openfoam@2512" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "OpenFOAM-v2512.app"
   binary "#{appdir}/OpenFOAM-v2512.app/Contents/Resources/etc/openfoam", target: "openfoam2512"
