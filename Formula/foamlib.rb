@@ -10,9 +10,9 @@ class Foamlib < Formula
   head "https://github.com/gerlero/foamlib.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/foamlib-1.10.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "0f05aed1d1c11bc263d6666acd849fad00e73915a2637308328d154e5b12a76b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ce748cbde5b3f9fd2a5c59ab5e1e22131cb4a30e407bab60ee76bc6a86d7aae3"
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/foamlib-1.10.2_1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "38e1f8be974bff91e643bf8ecc245ed46afdc44a7486ad5e913fde326ba31703"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "29d5b1959e88c2274014d993158dd7ee7a4607f38c925f01e660e8bda4f2476b"
   end
 
   depends_on "rust" => :build # for uv_build > maturin
