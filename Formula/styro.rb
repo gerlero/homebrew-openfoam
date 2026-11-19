@@ -9,9 +9,9 @@ class Styro < Formula
   head "https://github.com/gerlero/styro.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/styro-0.1.39_1"
-    sha256 cellar: :any, arm64_tahoe:  "71a1bbc73380fc263d8fb12d2a5f945564372014b36ddb018533b5fd0309bf7c"
-    sha256 cellar: :any, x86_64_linux: "9d76ba391d6767d26fdf3d3827ebe38df5d2ed07eb00ca508631e7403c269b09"
+    root_url "https://github.com/gerlero/homebrew-openfoam/releases/download/styro-0.1.40"
+    sha256 cellar: :any, arm64_tahoe:  "12f5ad3a394dee99228f8eddceb8f5f41398135a3a04d3b78547b4b8a47ea5a3"
+    sha256 cellar: :any, x86_64_linux: "4b70d93afe2498bf659b48732cfec860af8d28dcf442b9217d9a031fdce895b5"
   end
 
   depends_on "rust" => :build # for uv_build > maturin
